@@ -1,0 +1,25 @@
+﻿@model MVCPortfolio.Models.FakeDatabase.Book
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+        <h2>Delete Book</h2>
+        @using (Html.BeginForm("DeleteBook", "Books", FormMethod.Post, new { role = "form" }))
+        {
+            @Html.ValidationSummary()
+            @Html.HiddenFor(m => m.Id)
+            <p>Are you sure you wish to delete @Model.Title?</p>
+            <div class="row">
+                <div class="col-sm-6">
+                    @Html.ActionLink("Go Back", "Index", "Books", null, new { @class = "btn btn-default" })
+                </div>
+                <div class="col-sm-6">
+                    <button type="submit" class="btn btn-primary">Delete</button>
+                </div>
+            </div>           
+        }
+    </div>
+</div>

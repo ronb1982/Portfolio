@@ -1,0 +1,42 @@
+﻿@model MVCPortfolio.Models.FlooringCalculator.CostDetails
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 class="col-sm-offset-5">Flooring Calculator</h3>
+<br/>
+<div class="row col-sm-2 col-sm-offset-5">
+    <div>
+        @using (Html.BeginForm("Calculations", "Flooring", FormMethod.Post, new { role = "form" }))
+        {
+            @Html.ValidationSummary()
+            
+            <div class="form-group">
+                @Html.LabelFor(m => m.Measurements.Length)
+                @Html.TextBoxFor(m => m.Measurements.Length, new { placeholder = "Enter length", @class = "form-control" })
+            </div>
+            
+            <br />
+            <br />
+            
+            <div class="form-group">
+                @Html.LabelFor(m => m.Measurements.Width)
+                @Html.TextBoxFor(m => m.Measurements.Width, new { placeholder = "Enter width", @class = "form-control" })
+            </div>
+
+            
+            <br />
+            <br />
+            <div class="form-group">
+                @Html.LabelFor(m => m.Costs)
+                @Html.TextBoxFor(m=>m.Prices.Rate, new{placeholder = "Enter rate", @class = "form-control"})
+            </div>
+           
+            <button type="submit" class="btn btn-primary">Calculate</button>
+            
+        }
+    </div>
+
+
+</div>

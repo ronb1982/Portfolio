@@ -1,0 +1,41 @@
+﻿@model MVCPortfolio.Models.FlooringCalculator.CostDetails
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="font-size: 18px" class="row col-lg-6 col-lg-offset-3">
+    <h2>Welcome to my personal project page!</h2>
+    <br />
+    <p>
+        Hi, my name is Ron Buchanan! I am an aspiring web and software developer. Please enjoy my collage of the labs I worked on during
+        the time at the Software Craftsmanship Guild which range in difficulty from simple to intermediate. These labs have given me much 
+        practice applying object-oriented programming concepts to real-life projects. Enjoy!
+    </p>
+    <br />
+    <br />
+    <table class="table table-hover">
+        <caption><strong>Project Portfolio</strong></caption>
+
+        <tr>
+            <th>Project Name</th>
+            <th>Project Description</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>@Html.ActionLink("Flooring calculator", "Index", "Flooring")</td>
+                <td>A simple calculator that calculates the costs of flooring.</td>
+            </tr>
+            <tr>
+                <td>@Html.ActionLink("Higher or Lower Card Game", "Index", "HigherOrLower")</td>
+                <td>Play against the dealer and see if your next card is higher or lower.</td>
+            </tr>
+            <tr>
+                <td>@Html.ActionLink("Simple Library", "Index", "FakeDb")</td>
+                <td>A simple CRUD application that allows users to add, update, read, and delete book information.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

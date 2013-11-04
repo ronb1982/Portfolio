@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MVCPortfolio.Models.FakeDatabase.Book>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="col-sm-8 col-sm-offset-2">
+    <h2>Small Book Library - CRUD (Create, Read, Update, Delete)</h2>
+    <p>
+        @Html.ActionLink("Create New", "Create","Books")
+    </p>
+    <table class="table table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearPublished)
+            </th>
+             <th>
+                 Actions
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.YearPublished)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+

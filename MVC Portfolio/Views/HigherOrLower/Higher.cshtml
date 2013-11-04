@@ -1,0 +1,41 @@
+﻿@model MVCPortfolio.Models.HigherOrLower.CardsInPlay
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="font-size: 30px" class="row col-sm-offset-4">
+    <strong>Dealer's Card</strong> &nbsp;&nbsp;&nbsp;&nbsp;<strong>Your Card</strong><br />
+    <img src="@Url.Content(@Model.CardDisplay[0].FileName)" width="200"/>
+    <img src="@Url.Content(@Model.CardDisplay[1].FileName)" width="200"/>
+    <br />
+    <br />
+    <h1><em>@Model.Message</em></h1>
+
+
+    @if (Model.Message == "You win!")
+    {
+        <audio autoplay="autoplay" hidden="hidden">
+            <source src="~/Content/Audio/victorysound.wav" type="audio/wav" />
+        </audio>
+    }
+
+    @if (Model.Message == "You lose!")
+    {
+        <audio autoplay="autoplay" hidden="hidden">
+            <source src="~/Content/Audio/youlose.wav" type="audio/wav" />
+        </audio>
+    }
+
+    else
+    {
+        <audio autoplay="autoplay" hidden="hidden">
+            <source src="~/Content/Audio/draw.wav" type="audio/wav" />
+        </audio>
+    }
+
+
+    <p>Page will redirect in 3 seconds</p>
+
+    <META HTTP-EQUIV="Refresh" CONTENT="3;URL=@(Url.Action("Index", "HigherOrLower"))">
+</div>

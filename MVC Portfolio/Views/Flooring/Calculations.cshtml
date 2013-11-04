@@ -1,0 +1,23 @@
+﻿@model MVCPortfolio.Models.FlooringCalculator.CostDetails
+
+@{
+    ViewBag.Title = "Calculations";
+}
+
+<div class="row col-sm-4 col-sm-offset-4">
+    <div>
+        <h2>Flooring Calculations and Costs</h2>
+        <br />
+        <label>Length: </label> @Model.Measurements.Length <strong> feet</strong><br />
+        <br />
+        <label>Width: </label> @Model.Measurements.Width <strong> feet</strong><br />
+        <br />
+        <label>Cost per square foot: </label> @Model.Prices.Rate.ToString("C") <em> / sq ft.</em><br />
+        <br />
+        <label>Area: </label> @Model.Measurements.Area <strong> feet</strong><br />
+        <br />
+        <label>Total costs: </label> @Model.TotalCosts.ToString("C")
+        
+       @* @Html.ActionLink("See next sample", "", "Home")*@
+    </div>
+</div>

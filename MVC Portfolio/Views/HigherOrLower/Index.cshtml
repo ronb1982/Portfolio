@@ -1,0 +1,32 @@
+﻿@model MVCPortfolio.Models.HigherOrLower.Card
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row col-sm-offset-4">
+    <img src="@Url.Content(@Model.FileName)" width="200"/>
+    <br />
+    <br />
+    @using (Html.BeginForm("Higher", "HigherOrLower", FormMethod.Post, new { style = "display:inline" }))
+    {
+        @Html.HiddenFor(m => m.CardId)
+        @Html.HiddenFor(m => m.CardValue)
+        @Html.HiddenFor(m => m.FileName)
+        <input type="submit" style="width: 70px" name="Command" value="Higher" />
+    }
+
+    @using (Html.BeginForm("Lower", "HigherOrLower", FormMethod.Post, new { style = "display:inline" }))
+    {
+        @Html.HiddenFor(m => m.CardId)
+        @Html.HiddenFor(m => m.CardValue)
+        @Html.HiddenFor(m => m.FileName)
+        <input type="submit" style="width: 70px" name="Command" value="Lower" />
+    }
+
+    @*<p>Wins: @Model.Wins</p>
+    <p>Losses: @Model.Losses</p>
+    <p>Draws: @Model.Draws</p>*@
+
+</div>

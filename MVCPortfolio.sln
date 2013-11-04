@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPortfolio", "MVC_Apps\MVC Portfolio\MVCPortfolio.csproj", "{DEAC1B86-774B-49AE-B90A-2E5EFF8C4CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWCGuild.FakeDatabase", "FakeDatabaseMVC\SWCGuild.FakeDatabase\SWCGuild.FakeDatabase.csproj", "{AD79693F-7523-489A-A877-F7F973920163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEAC1B86-774B-49AE-B90A-2E5EFF8C4CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAC1B86-774B-49AE-B90A-2E5EFF8C4CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAC1B86-774B-49AE-B90A-2E5EFF8C4CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAC1B86-774B-49AE-B90A-2E5EFF8C4CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD79693F-7523-489A-A877-F7F973920163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD79693F-7523-489A-A877-F7F973920163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD79693F-7523-489A-A877-F7F973920163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD79693F-7523-489A-A877-F7F973920163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
