@@ -1,0 +1,5 @@
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Operations\bin\Debug\MeanMedianAndMode.Operations.dll
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Operations\bin\Debug\MeanMedianAndMode.Operations.pdb
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Operations\obj\Debug\MeanMedianAndMode.Operations.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Operations\obj\Debug\MeanMedianAndMode.Operations.dll
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Operations\obj\Debug\MeanMedianAndMode.Operations.pdb

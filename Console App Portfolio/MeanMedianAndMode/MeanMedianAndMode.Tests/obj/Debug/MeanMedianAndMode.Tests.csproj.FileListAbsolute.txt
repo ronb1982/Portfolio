@@ -1,0 +1,11 @@
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\bin\Debug\MeanMedianAndMode.Tests.dll
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\bin\Debug\MeanMedianAndMode.Tests.pdb
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\bin\Debug\MeanMedianAndMode.Operations.dll
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\bin\Debug\MeanMedianAndMode.Operations.pdb
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\obj\Debug\MeanMedianAndMode.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\obj\Debug\MeanMedianAndMode.Tests.dll
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\obj\Debug\MeanMedianAndMode.Tests.pdb
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\bin\Debug\MeanMedianAndMode.UI.exe
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.Tests\bin\Debug\MeanMedianAndMode.UI.pdb

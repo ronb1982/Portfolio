@@ -1,0 +1,11 @@
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.UI\bin\Debug\MeanMedianAndMode.UI.exe.config
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.UI\obj\Debug\MeanMedianAndMode.UI.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.UI\bin\Debug\MeanMedianAndMode.UI.exe
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.UI\bin\Debug\MeanMedianAndMode.UI.pdb
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.UI\bin\Debug\MeanMedianAndMode.Operations.dll
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.UI\bin\Debug\MeanMedianAndMode.Operations.pdb
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.UI\obj\Debug\MeanMedianAndMode.UI.exe
+C:\Users\apprentice\Documents\Visual Studio 2012\Projects\MeanMedianAndMode\MeanMedianAndMode.UI\obj\Debug\MeanMedianAndMode.UI.pdb
+C:\Users\apprentice\Desktop\Portfolio\Console App Portfolio\MeanMedianAndMode\MeanMedianAndMode.UI\bin\Debug\MeanMedianAndMode.UI.exe.config
+C:\Users\apprentice\Desktop\Portfolio\Console App Portfolio\MeanMedianAndMode\MeanMedianAndMode.UI\obj\Debug\MeanMedianAndMode.UI.exe
+C:\Users\apprentice\Desktop\Portfolio\Console App Portfolio\MeanMedianAndMode\MeanMedianAndMode.UI\obj\Debug\MeanMedianAndMode.UI.pdb
